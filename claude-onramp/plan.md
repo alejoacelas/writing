@@ -2,8 +2,17 @@
 
 A guide that takes someone from "I've used Claude in a browser" to "I delegate
 real work to Claude Cowork and Claude Code." Smart audience, zero setup
-experience. This file is the plan; the prose blocks marked **Draft** are real
-first drafts you can react to for tone. Nothing else is implemented yet.
+experience.
+
+> **Status (2026-07-02): first full draft written.** Guide content lives in the
+> numbered `NN-*.md` files, `decisions/`, and `assistant/`; `site/index.html` is
+> the rendered version (rebuild with `python3 site/build.py`). Research flags
+> below were resolved via web search before drafting — see
+> [`RESEARCH.md`](RESEARCH.md) for the sourced facts and their freshness
+> caveats. Still to do: dogfood on a clean machine, watch real users, build the
+> live assistant. This plan is retained as the design rationale.
+
+---
 
 ## The point of the whole thing
 
